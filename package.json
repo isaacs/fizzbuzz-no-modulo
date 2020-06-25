@@ -1,6 +1,6 @@
 {
   "name": "fizzbuzz-no-modulo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "files": [],
   "description": "Fizz Buzz but without using the % operator",
   "repository": {
