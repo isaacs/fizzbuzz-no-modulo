@@ -1,0 +1,24 @@
+{
+  "name": "fizzbuzz-no-modulo",
+  "version": "0.0.0",
+  "files": [],
+  "description": "Fizz Buzz but without using the % operator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/fizzbuzz-no-modulo"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (https://izs.me)",
+  "license": "ISC",
+  "scripts": {
+    "test": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "tap": {
+    "check-coverage": true
+  },
+  "devDependencies": {
+    "tap": "^14.10.7"
+  }
+}
