@@ -1,7 +1,11 @@
 {
   "name": "fizzbuzz-no-modulo",
   "version": "1.0.0",
-  "files": [],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": "cli.js",
   "description": "Fizz Buzz but without using the % operator",
   "repository": {
     "type": "git",
